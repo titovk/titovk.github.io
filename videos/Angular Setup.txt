@@ -1,0 +1,8 @@
+npm uninstall -g @angular/cli
+npm cache verify
+npm install -g @angular/cli@next
+Generate a new project and default application by running the following command:
+
+ng new my-project
+cd my-project
+ng serve

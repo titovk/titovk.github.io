@@ -1,0 +1,638 @@
+.container {
+  margin-left:  auto;
+  margin-right:  auto;
+  margin-top: 177px;
+  max-width: 100vw;
+  padding-right: 10px;
+  padding-left: 25vw;
+}
+
+.my-banner {
+    /* The image used 
+   background: rgba(1, 1, 1, 1);*/
+  width: 100%;
+  background-color: #000000;
+  background-image: url(../images/emptyBanner.png);
+  
+  background-repeat: no-repeat;
+  background-size: 100%;
+ 
+  /* position: fixed;*/
+  background-position: 0px 60%;
+  position: relative;
+  height: 30vw;
+  top: 0;
+  z-index: 99;
+  
+}
+
+.my-main-banner {
+  width: 100%;
+  background-color: #000000;
+  background-image: url(../images/BannerOptimized.png);
+  
+  background-repeat: no-repeat;
+  background-size: 100%;
+ 
+  /* position: fixed;*/
+  background-position: 0px 50%;
+  position: absolute;
+  height: 26vw;
+  top: 0;
+  left:0;
+}
+
+
+.my-secondary-banner {
+  width: 100%;
+  background-color: #000000;
+  background-image: url(../images/emptyBannerOptimized.png);
+  
+  background-repeat: no-repeat;
+  background-size: 100%;
+ 
+  /* position: fixed;*/
+  background-position: 0px 50%;
+  position: absolute;
+  height: 26vw;
+  top: 0;
+  left:0;
+}
+
+.my-logo {
+   position: absolute;
+   left: 1.0vw;
+   top: 1.5vw;
+   max-width: 9vw; 
+   max-height:9vw;
+  
+}
+
+.slider-down {
+  z-index: 3;
+  
+  left: 23.7%;
+  top: 20%;
+  color: #ffffff;
+  padding: 2px 1px;
+ 
+  margin-left: -2px;
+  width: 10vw;
+}
+
+.gifContainer {
+  margin-left:  auto;
+  margin-right:  auto;
+  margin-top: 10vw;
+  max-width: 90vw;
+  padding-right: 10px;
+  padding-left: 50vw;
+}
+
+.centered-block {
+    width: 100px; 
+    left: 50%; 
+    -webkit-transform: translate(-50%, 0); 
+    position: absolute;
+}
+
+.centered-block-Ed {
+   text-align : center;
+}
+
+.centered-block-minimized {
+   text-align : center;
+   margin-top: 10vw;
+   width: 9%;
+   height: 9%;
+}
+
+.centered-block-75 {
+   text-align : center;
+   margin-top: 3vw;
+   margin-right: 13vw;
+   margin-left: 13vw;
+   margin-bottom: 3vw;
+}
+
+.centered-block-75-small-margin {
+   text-align : center;
+   margin-top: 1vw;
+   margin-right: 13vw;
+   margin-left: 13vw;
+   margin-bottom: 3vw;
+   word-wrap:break-word;
+}
+
+.title-block-75 {
+   text-align : center;
+   margin-top: 1vw;
+   margin-right: 13vw;
+   margin-left: 13vw;
+   margin-bottom: 1vw;
+   word-wrap:break-word;
+}
+
+.PermanentMarkerSmall {
+  font-family: PermanentMarkerReg;
+  font-size: 20px;
+  font-weight: 5;
+  -webkit-text-stroke-width: 1.0px;
+  -webkit-text-stroke-color: black;
+  word-wrap:break-word;
+}
+
+.PermanentMarkerSmallAnim {
+  font-family: PermanentMarkerReg;
+  font-size: 20px;
+  font-weight: 5;
+  -webkit-text-stroke-width: 1.0px;
+  -webkit-text-stroke-color: black;
+  color: gold;
+  word-wrap:break-word;
+}
+
+.PermanentMarkerSmall0 {
+  font-family: PermanentMarkerReg;
+  font-size: 15px;
+  font-weight: 100;
+  -webkit-text-stroke-width: 1.0px;
+  -webkit-text-stroke-color: black;
+  word-wrap:break-word;
+}
+
+.PermanentMarkerMedium0 {
+  font-family: PermanentMarkerReg;
+  font-size: 20px;
+  font-weight: 5;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: red;
+}
+
+.PermanentMarkerMedium {
+  font-family: PermanentMarkerReg;
+  font-size: 25px;       
+  font-weight: 5;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: red;
+}
+
+.PermanentMarkerDisclamer0 {
+  font-family: PermanentMarkerReg;
+  font-size: 8px;
+  font-weight: 5;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: black;
+}
+
+.PermanentMarkerDisclamer {
+  font-family: PermanentMarkerReg;
+  font-size: 13px;
+  font-weight: 5;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: black;
+}
+
+.centered-Image-portfolio-page {
+   text-align : center;
+   border: 1px solid #221E0C;
+   width: 70vw;
+   height:35vw;
+}
+
+.centered-Image-portfolio-page0 {
+   text-align : center;
+   border: 1px solid #221E0C;
+   width: 50vw;
+   height:25vw;
+}
+
+.iframe-class0 {
+    align: center; 
+    text-align : center;
+    width: 50vw;
+    height: 25vw;
+    border: 1px solid #221E0C;
+    position: relative;
+    margin:auto;
+    display:block;
+}
+
+.scaledImage {
+    top:0;
+    left:0;
+    width:50vw;
+    height:25vw;
+    border:1px solid #221E0C;
+}
+
+.iframe-class {
+    align: center; 
+    text-align : center;
+    width: 70vw;
+    height: 35vw;
+    border: 1px solid #221E0C;
+    position: relative;   
+}
+
+.framecontainer0 {
+    width: 50vw;
+    height: 50vw;
+    align: center; 
+    text-align : center;
+}
+
+.framecontainer {
+    align: center; 
+    text-align : center;
+}
+
+.empty-block-small{
+ text-align : center;
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw; 
+}
+
+.empty-block{
+ text-align : center;
+  margin-top: 3vw;
+  margin-bottom: 3vw; 
+}
+
+.small-empty-wrap0{
+ text-align : center;
+  margin-top: 1.0vw;
+  margin-bottom: 1.0vw; 
+}
+
+.small-empty-wrap{
+ text-align : center;
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw; 
+}
+
+
+.empty-block-top-offset{
+ text-align : center;
+  margin-top: 13vw;
+}
+
+.empty-block-banner-offset{
+ text-align : center;
+  margin-top: 25vw;
+}
+
+.centered-block-Test {
+   text-align : center;
+   background-color: Green;
+}
+
+.ornament-container {
+   text-align : center;
+   height:15vw;
+  /*background-color: Green;*/
+}
+
+.text-divider-container {
+   text-align : center;
+   height:2px;
+   background-color: White;
+}
+
+.centered-Image-under-constr-block {
+   text-align : center;
+   <!--background-color: Red;-->
+   width: 70vw;
+   height:35vw;
+}
+
+.centered-Image-resume {
+   text-align : center;
+   <!--background-color: Red;-->
+   width: 100vw;
+   height:90vw;
+}
+
+
+.centered-LongImage-portfolio-page {
+   text-align : center;
+   border: 1px solid #221E0C;
+   width: 70vw;
+   height:48vw;
+}
+
+.centered-ExLongImg-port-page {
+   text-align : center;
+   border: 1px solid #221E0C;
+   width: 40vw;
+   height:50vw;
+}
+
+
+.centered-Image-gif-block {
+   text-align : center;
+  width: 30vw;
+  height: 14.21vw;
+  
+}
+
+.centered-Image-gif-block-vert {
+   text-align : center;
+  width: 14.21vw;
+  height:30vw;
+  
+}
+
+.centered-Image-gif-square {
+   text-align : center;
+  width: 30vw;
+  height:30vw;
+}
+
+
+.ornament {
+   position: relative;
+   top: 25%;
+   max-width: 10vw; 
+   max-height:10vw;
+   height: 60%;
+   width: 8%
+  
+}
+
+.row {
+    position: absolute;
+    width: 80%;
+    background-image: url(../images/Banner.png);
+    height: 30%;
+}
+
+.h1 {
+  font-size: 35px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
+
+.test-btn {
+   display: block;
+   text-decoration: none;
+   background-color: Green;
+   color: Gold;
+   height: 50px;
+   width: 100px;
+   position: relative;
+   left: 75%;
+   margin-left: -50px;
+}
+
+hr.style1{
+    position: relative;
+    text-align:center;
+    display: block;
+    width: 75vw;
+    height: 10px;
+    border: 0;
+    border-top: 1px solid #221E0C;
+    padding: 0;
+    margin-top: 3vw;
+}
+
+.home-btn:hover{
+   color:Red;
+}
+
+.home-btnOLD {
+   text-align:center;
+   text-decoration: none;
+   font-family: 'PermanentMarker', cursive;
+   position: relative;
+   color: Gold;
+   height: 3vw;
+   width: 5vw;
+   font-size: 1.2vw;
+   letter-spacing:2.5px;
+  /*position: relative;
+   position: absolute;*/
+   /*left: 65%;*/
+   left: 65vw;
+   top: 15%;
+}
+
+.home-bt {
+   text-align:center;
+   text-decoration: none;
+   font-family: 'PermanentMarker', cursive;
+   position: relative;
+   color: Gold;
+   height: 3vw;
+   width: 5vw;
+   font-size: 1.2vw;
+   letter-spacing:2.5px;
+  /*position: relative;
+   position: absolute;*/
+   /*left: 65%;*/
+}
+
+.space {
+  width: 2vw;
+  height: auto;
+  display: inline-block;
+}
+
+.portfolio-btnOLD {
+   text-align:center;
+   text-decoration: none;
+   font-family: 'PermanentMarker', cursive;
+   position: relative;
+   color: Gold;
+   height: 2vw;
+   width: 5vw;
+   font-size: 1.2vw;
+   letter-spacing:2.5px;
+   /*position: relative;
+   position: absolute;*/
+   /*left: 67%;*/
+   left: 73vw;
+   top: 15%;
+}
+
+.portfolio-bt {
+   text-align:center;
+   text-decoration: none;
+   font-family: 'PermanentMarker', cursive;
+   position: relative;
+   color: Gold;
+   height: 2vw;
+   width: 5vw;
+   font-size: 1.2vw;
+   letter-spacing:2.5px;
+   /*position: relative;
+   position: absolute;*/
+   /*left: 67%;*/
+}
+
+.portfolio-btn:hover{
+     color:Red;
+}
+
+.skills-btnOLD {
+   text-align:center;
+   text-decoration: none;
+   font-family: 'PermanentMarker', cursive;
+   position: relative;
+   color: Gold;
+   height: 2vw;
+   width: 5vw;
+   font-size: 1.2vw;
+   letter-spacing:2.5px;
+      /*position: relative;
+   position: absolute;*/
+   /*left: 69%;*/
+   left: 85vw;
+   top: 15%;
+}
+
+.skills-bt {
+   text-align:center;
+   text-decoration: none;
+   font-family: 'PermanentMarker', cursive;
+   position: relative;
+   color: Gold;
+   height: 2vw;
+   width: 5vw;
+   font-size: 1.2vw;
+   letter-spacing:2.5px;
+      /*position: relative;
+   position: absolute;*/
+   /*left: 69%;*/
+}
+
+.btn-placement {
+   position: absolute;
+   right: 5vw;
+   top: 15%;
+   text-align:center;
+}
+.skills-btn:hover{
+     color:Red;
+}
+
+.hide-scroll{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.hide-scroll::-webkit-scrollbar {
+   
+    display: none;
+}
+
+
+@font-face {
+    font-family: HarngtonFont;
+    src: url(../fonts/HARNGTON.TTF);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: PermanentMarker;
+    src: url(../fonts/PermanentMarker.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: PermanentMarkerReg;
+    src: url(../fonts/PermanentMarker.ttf);
+    font-weight: regular;
+}
+
+@font-face {
+    font-family: PARCHM;
+    src: url(../fonts/PARCHM.TTF);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: MAGNETOB;
+    src: url(../fonts/MAGNETOB.TTF);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: ArabDances;
+    src: url(../fonts/ArabDances.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: arab3end;
+    src: url(../fonts/arab3end.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: LCD-7;
+    src: url(../fonts/LCD-7.ttf);
+    font-weight: bold;
+}
+
+.HarngtonFont {
+  font-family: HarngtonFont;
+  font-size: 55px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
+
+.PermanentMarker {
+  font-family: PermanentMarker;
+  font-size: 35px;
+  font-weight: 30;
+  margin: 0 0 20px 0;
+}
+
+.PARCHM{
+  font-family: PARCHM;
+  font-size: 55px;
+  font-weight: 300;
+}
+
+.MAGNETOB{
+  font-family: MAGNETOB;
+  font-size: 35px;
+  font-weight: 30;
+}
+
+.MagnetobFrontPage{
+  font-family: MAGNETOB;
+  font-size: 15px;
+  font-weight: 10;
+}
+
+.ArabDancesFrontPage{
+  font-family: ArabDances;
+  font-size: 25px;
+  font-weight: 10;
+}
+
+.Arab3end{
+  font-family: arab3end;
+  font-size: 25px;
+  font-weight: 10;
+}
+
+.LCD{
+  font-family: LCD-7;
+  font-size: 15px;
+  font-weight: 10;
+}
+
+.parent {
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 */
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+}

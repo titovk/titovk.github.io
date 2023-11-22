@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>Konstantin's Portfolio</title>
+    <link rel="shortcut icon" href="images/favicon.png"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css_files/main.css" rel="stylesheet" type="text/css">
+   
+    <script type='text/javascript' src="js_files/jquery.min.js"></script>
+    <link rel="stylesheet" href="css_files/carouselStyle.css">
+    
+     <script type='text/javascript' src="js_files/all.min.js"></script>
+    <link rel="stylesheet" href="css_files/all.min.css">
+    <script src="js_files/index.js"></script>
+  </head>
+
+    
+
+
+<body class="hide-scroll" onload="load()"  style="overflow-y: scroll; overflow-x: hidden;">
+    
+    <style type="text/css">
+       body {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        background-color: #000000;
+        max-width: 100vw;
+        }
+    </style>
+    <!--<div style="background-image: url(../images/emptyBanner.png);
+      height: 30vw; width: 100vw; background-repeat: no-repeat;
+      background-size: 100% auto; background-position: 0px 50%;">
+     <img class="my-logo" src="images/konstGames.png">
+     <a href="index.html" class="home-btn";>Home</a>     
+     <a href="portfolio.html" class="portfolio-btn";>Portfolio</font></a>
+     <a href="skills.html" class="skills-btn";><font color="red">Skills</a>
+    </div>-->
+    
+    <div class="my-secondary-banner">
+         <img class="my-logo" src="images/konstGames.png">
+         <div class="btn-placement">
+            <a href="index.html" class="home-bt">Home</a>    
+            <div class="space"></div>
+            <a href="portfolio.html" class="portfolio-bt">Portfolio</a>
+            <div class="space"></div>
+            <a href="skills.html" class="skills-bt">
+                <font color="red">Skills</font></a>
+         </div>
+         <div class="empty-block" id="error">
+    </div>
+    
+    <div class="empty-block-banner-offset" id="error"></div>
+
+   <div class="title-block-75" id="error">
+     <font class="PermanentMarkerMedium" face="Cursive" color="gold">
+       My Resume
+      </font>
+   </div>
+
+   <div class="centered-block-75-small-margin" id="error">
+     <font class="PermanentMarkerSmall" face="Cursive" color="gold">
+      First things first. Let's start with my resume. I have started accumulating my coding experience from my first year of Game Development program at Algonquin College, I had no coding experience prior 
+       this program
+     </font>
+   </div>
+
+ <hr class="style1">
+
+  <div class="centered-block-Ed" id="error">
+    <img class="centered-Image-resume" src="images/MyResume.jpg">
+  </div>
+
+  <hr class="style1">
+  
+  <div class="empty-block-top-offset">
+  <!-- Carousel portion -->
+  <div class="slider-container">
+
+      <div class="slider-content">
+    
+        <div class="slider-single">
+          <img class="slider-single-image" src="images/Corel_office_old_Resized.jpg" id = image0  alt="1" />
+          <h1 class="slider-single-title">My Previous Office at Corel</h1>
+        </div>
+    
+        <div class="slider-single">
+          <img class="slider-single-image" src="images/Office_Ludia.JPG" id = image1 alt="2" />
+          <h1 class="slider-single-title">TMNT Office (Ludia. June 2016) </h1>
+        </div>
+    
+        <div class="slider-single">
+          <img class="slider-single-image" src="images/LUDIA_TEAM_Resized.jpg" id = image2 alt="3" />
+          <h1 class="slider-single-title">TMNT Team (Ludia. Montreal)</h1>
+        </div>
+    
+    
+        <div class="slider-single">
+          <img class="slider-single-image" src="images/LUDIA_TEAM2_Resized.jpg" id = image3 alt="4" />
+          <h1 class="slider-single-title">TMNT Team Take Two (Ludia. Montreal) </h1>
+        </div>
+    
+    
+        <div class="slider-single">
+          <img class="slider-single-image" src="images/NewOfficeCorel_Resized.jpg" id = image4 alt="5" />
+          <h1 class="slider-single-title">My Current Office at Corel</h1>
+        </div>
+    
+        <div class="slider-single">
+          <img class="slider-single-image" src="images/MyFirstClass_Resized.jpg" id = image5 alt="6" />
+          <h1 class="slider-single-title">My First OpenGL Class</h1>
+        </div>
+    
+      </div>
+    
+      <a class="slider-left" href="javascript:void(0);"><i class="fa-solid fa-angle-left"></i></a>
+    
+      <a class="slider-right" href="javascript:void(0);"><i class="fa-solid fa-angle-right"></i></a>
+    
+      </div> 
+ </div> 
+ 
+ <!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+
+ <!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+   
+ 
+ <div class="empty-block-top-offset">
+     
+   <script type="text/javascript">
+
+      function load()
+      {
+         var images = new Array()
+         function preload() {
+            for (i = 0; i < preload.arguments.length; i++) {
+              images[i] = new Image()
+              images[i].src = preload.arguments[i]
+              document.getElementById('image'+ i.toString()).src = images[i].src
+            }
+      }
+      
+      preload(
+       "images/Corel_office_old_Resized.jpg",
+       "images/Office_Ludia.JPG",
+       "images/LUDIA_TEAM_Resized.jpg",
+       "images/LUDIA_TEAM2_Resized.jpg",
+       "images/NewOfficeCorel_Resized.jpg",
+       "images/MyFirstClass_Resized.jpg" )
+       
+      }
+    </script>
+         
+</div>
+
+
+</body>
+</html>
